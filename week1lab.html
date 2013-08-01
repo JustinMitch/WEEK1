@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+<html>
+
+<style>
+input
+{
+padding:0.5em;
+border-bottom:0.2em solid red;
+border-radius:0.5em;
+background:grey;
+}
+
+.contentbox {
+  		
+            border-radius : 2em;
+            border: 0.3em solid #000;
+            padding : 1.0em;
+			background-color:red;
+            width:40%;
+		
+}
+.labels
+{
+width:100px;
+display:inline-block;
+}
+.label
+{
+width:100px;
+}
+
+textarea{
+width: 250px;
+height:100px;
+}
+</style>
+
+<body>
+
+<form  name="myform">
+
+<div class="contentbox">
+
+<span class="labels"> First Name:</span><input id="first"type="first" /> <br/>
+
+<span class="labels">Last Name:</span><input id="last" type="last" /> <br/>
+
+<span class="labels">Email:</span><input id="email" type="email"/> <br/>
+
+<span class="label">Comments:</span><br/><textarea id="comments">Comment Here</textarea> <br/>
+ <button type="button" onclick="alert ('Information has been submitted. Thank you!')">Submit</button>
+</div>
+
+
+
+</form>
+
+
+<script>
+
+//comments 
+
+
+var stringtype = "mysring", stringtype2="mystring", bool = true, boolS="true", numbertype = 10, numbertypeS="10";
+//counter from 1-10 
+for ( var i = 0; i <= 10; i++ ) {
+	console.log(i);
+	document.write(i + "<br />");
+
+}
+
+//counter from 10-0
+document.write( "<br />");
+for ( var i = 10; i >= 0; i-- ) {
+	console.log(i);
+	document.write(i + "<br />");
+
+}
+//comparison
+if(numbertype == numbertypeS ) 
+{
+console.log ("is true");
+} 
+else 
+{
+console.log ("is false");
+}
+
+if (numbertype === numbertypeS) 
+{
+console.log ("is true");
+}
+else 
+{
+console.log ("is false");
+}
+//boolean comparison
+if(bool == boolS ) 
+{
+console.log ("is true");
+} 
+else 
+{
+console.log ("is false");
+}
+
+
+if(bool === boolS ) 
+{
+console.log ("is true");
+} 
+else 
+{
+console.log ("is false");
+}
+//string comparison
+
+if( stringtype== stringtype2 ) 
+{
+console.log ("is true");
+} 
+else 
+{
+console.log ("is false");
+}
+
+if( stringtype=== stringtype2 ) 
+{
+console.log ("is true");
+} 
+else 
+{
+console.log ("is false");
+}
+
+
+
+console.log("before");
+console.log("stringtype");
+
+stringtype = stringtype + "more string";
+
+console.log("before");
+console.log(stringtype);
+
+
+
+</script>
+<title></title>
+</body>
+</html>
