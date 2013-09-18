@@ -1,0 +1,31 @@
+input
+{
+padding:0.5em;
+border-bottom:0.2em solid red;
+border-radius:0.5em;
+background:grey;
+}
+
+.contentbox {
+  		
+            border-radius : 2em;
+            border: 0.3em solid #000;
+            padding : 1.0em;
+			background-color:red;
+            width:40%;
+
+}
+.labels
+{
+width:100px;
+display:inline-block;
+}
+.label
+{
+width:100px;
+}
+
+textarea{
+width: 250px;
+height:100px;
+}
